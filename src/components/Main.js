@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Router, Switch, Route } from 'react-router-dom';
 import Home from './Home.js';
 import Resume from './Resume.js';
 import Projects from './Projects.js';
@@ -8,7 +8,7 @@ import Publications from './Publications.js';
 
 const Main = () => {
     return (
-        <BrowserRouter>
+        <Router history={hashHistory}>
             <Switch>
                 <Route exact path="/">
                     <Home></Home>
@@ -26,7 +26,7 @@ const Main = () => {
                     <Publications></Publications>
                 </Route>
             </Switch>
-        </BrowserRouter>
+        </Router>
     );
 };
 

@@ -1,0 +1,95 @@
+.sidebar {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(60, 66, 79);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.main {
+    margin-left: 400px;
+    width: 1000px;
+}
+
+div {
+    overflow: hidden;
+}
+
+.main-background {
+    width: 150%;
+    height: 150%;
+    background-color: rgb(60, 66, 79);
+    position: fixed;
+}
+
+.sidebar-link {
+    color: rgb(179, 182, 197);
+    padding-left: 0;
+    display: block;
+    margin: auto;
+}
+
+.sidebar-link:hover {
+    color: rgb(132, 151, 174);
+}
+
+.sidebar-avatar {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#homepage-skill-list {
+    color: rgb(179, 182, 197);
+}
+
+.sidebar-name {
+    text-align: center;
+    color: rgb(179, 182, 197);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.page-title {
+    color: rgb(179, 182, 197);
+    background-color: transparent;
+}
+
+.portfolio-container {
+    width: 100%;
+}
+
+.card {
+    background-color: transparent;
+    color: rgb(179, 182, 197);
+    border: 0;
+}
+
+.card-link {
+    color: rgb(179, 182, 197);
+}
+
+.card-link:hover {
+    color: rgb(132, 151, 174);
+}
+
+.card-img-top {
+    height: 150px;
+}
+
+.card-subtitle {
+    padding-bottom: 5px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}

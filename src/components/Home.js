@@ -1,9 +1,11 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { motion } from 'framer-motion';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 const Home = () => {
     return (
+        <ScrollableAnchor id={"home"}>
         <motion.div animate={{opacity: [0, 1]}} transition={{duration: 0.2}}>
             <Jumbotron className="page-title homepage-title">
                 <h1>ELIJAH SCHWELLING</h1>
@@ -30,6 +32,7 @@ const Home = () => {
                 </ul>
             </div>
         </motion.div>
+        </ScrollableAnchor>
     );
 };
 

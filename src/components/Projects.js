@@ -8,9 +8,11 @@ import SpotifyDataTool from './SpotifyDataTool.PNG'
 import VRST19 from './VRST19.PNG';
 import Breakout from './Breakout.PNG';
 import Portfolio from './Portfolio.png';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 const Projects = () => {
     return (
+        <ScrollableAnchor id={'projects'}>
         <motion.div animate={{opacity: [0, 1]}} transition={{duration: 0.2}}>
             <Jumbotron className="page-title">
                 <h1>PROJECTS</h1>
@@ -84,6 +86,7 @@ const Projects = () => {
                 </Card>
             </div>
         </motion.div>
+        </ScrollableAnchor>
     );
 };
 

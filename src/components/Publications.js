@@ -6,10 +6,12 @@ import { motion } from 'framer-motion';
 import CHI20 from './CHI20.PNG';
 import VRST19 from './VRST19.PNG';
 import VRST18 from './VRST18.PNG';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 const Publications = () => {
     return (
-        <motion.div animate={{opacity: [0, 1]}} transition={{duration: 0.2}}>
+        <ScrollableAnchor id={'publications'}>
+            <motion.div animate={{opacity: [0, 1]}} transition={{duration: 0.2}}>
             <Jumbotron className="page-title">
                 <h1>PUBLICATIONS</h1>
                 <h4>PUBLISHED WORK AND PAPERS</h4>
@@ -76,7 +78,8 @@ const Publications = () => {
                     </Card.Body>
                 </Card>
             </div>
-        </motion.div>
+            </motion.div>
+        </ScrollableAnchor>
     );
 };
 

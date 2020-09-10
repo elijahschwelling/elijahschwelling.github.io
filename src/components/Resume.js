@@ -4,9 +4,11 @@ import Card from 'react-bootstrap/Card';
 import { motion } from 'framer-motion';
 
 import resume from './Resume.png'
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 const Resume = () => {
     return (
+        <ScrollableAnchor id={'resume'}>
         <motion.div animate={{opacity: [0, 1]}} transition={{duration: 0.2}}>
             <Jumbotron className="page-title">
                 <h1>RESUME</h1>
@@ -16,6 +18,7 @@ const Resume = () => {
                 <Card.Img variant="bottom" src={resume} />
             </Card>
         </motion.div>
+        </ScrollableAnchor>
     );
 };
 

@@ -17,11 +17,11 @@ const Portfolio = () => {
                 <Image className="sidebar-avatar" src={Avatar} rounded />
             <h2 className="sidebar-name">Elijah Schwelling</h2>
             <Nav defaultActiveKey="/Home" className="flex-column">
-            <Nav.Link className="sidebar-link" href="/">HOME</Nav.Link>
-            <Nav.Link className="sidebar-link" href="/projects">PROJECTS</Nav.Link>
-            <Nav.Link className="sidebar-link" href="/publications">PUBLICATIONS</Nav.Link>
-            <Nav.Link className="sidebar-link" href="/experience">EXPERIENCE</Nav.Link>
-            <Nav.Link className="sidebar-link" href="/resume">RESUME</Nav.Link>
+            <Nav.Link className="sidebar-link" href="#home">HOME</Nav.Link>
+            <Nav.Link className="sidebar-link" href="#projects">PROJECTS</Nav.Link>
+            <Nav.Link className="sidebar-link" href="#publications">PUBLICATIONS</Nav.Link>
+            <Nav.Link className="sidebar-link" href="#experience">EXPERIENCE</Nav.Link>
+            <Nav.Link className="sidebar-link" href="#resume">RESUME</Nav.Link>
             </Nav>
             </Col>
             <Col className="main">

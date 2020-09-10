@@ -2,9 +2,11 @@ import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { Card } from 'react-bootstrap';
 import { motion } from 'framer-motion';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 const Experience = () => {
     return (
+        <ScrollableAnchor id={'experience'}>
         <motion.div animate={{opacity: [0, 1]}} transition={{duration: 0.2}}>
             <Jumbotron className="page-title">
                 <h1>EXPERIENCE</h1>
@@ -60,6 +62,7 @@ const Experience = () => {
                 </Card>
             </div>
         </motion.div>
+        </ScrollableAnchor>
     );
 };
 

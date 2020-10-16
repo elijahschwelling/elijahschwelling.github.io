@@ -19,11 +19,11 @@ const Home = () => {
                 <ul>
                     <li><h6>Languages:</h6></li>
                         <ul>
-                            <li><h6>Java, C, JavaScript, Ruby, Rust, Racket, OCaml, Swift, HTML, CSS, HLSL, Python, C#</h6></li>
+                            <li><h6>Java, C, JavaScript, Ruby, Rust, Racket, OCaml, Swift, HTML, CSS, GLSL, HLSL, Python, C#</h6></li>
                         </ul>
                     <li><h6>Libraries, Frameworks, and APIs:</h6></li>
                         <ul>
-                            <li><h6>React, JQuery, D3.js, Node.js, Express.js, Bootstrap, MongoDB, ARKit</h6></li>
+                            <li><h6>React, JQuery, D3.js, Node.js, Express.js, OpenGL, Bootstrap, MongoDB, ARKit</h6></li>
                         </ul>
                     <li><h6>Development Tools:</h6></li>
                         <ul>
